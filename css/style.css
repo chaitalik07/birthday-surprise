@@ -32,7 +32,7 @@ margin-bottom:40px;
 
 .gift-grid{
 display:grid;
-grid-template-columns:repeat(5,200px);
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
 gap:30px;
 }
 
