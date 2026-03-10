@@ -84,8 +84,8 @@ document.getElementById("winPopup").style.display="none"
 let message = `Dear Bubba,❤️<br><br>
 i don't know how to express my feelings in words.
 but You are the most special person in my life.being with you makes every day better.
-you are hope my safe place the person I can always count on.<br><br>
-can't write that long letter over here. bt want to let you know that u matter to me alot<br>
+you are hope my safe place the person I can always count on. you make everything lil less hard. <br><br>
+had to public this so, can't write that long letter over here. bt want to let you know that u matter to me alot<br>
 I hope this birthday brings you peace, love, money and success.
 Thank you for being in my life my love <br>
 I love you so much ❤️<br><br>
