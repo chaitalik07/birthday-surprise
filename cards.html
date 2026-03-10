@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Love Cards 💌</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- PASSWORD PROTECTION -->
+  <div id="passwordGate" class="password-overlay" data-password="2209">
+    <div class="password-box">
+      <h2>Enter Password 🔒</h2>
+      <p>Hint: The day we met - dd-mm 😉</p>
+      <input type="password" id="sitePassword">
+      <button onclick="checkPassword()">Open</button>
+      <button class="center-btn" onclick="location.href='index.html'">Back</button>
+    </div>
+  </div>
+
+  <!-- PROTECTED CONTENT -->
+  <div id="protectedContent" style="display:none;">
+
+    <h1 class="title">27 Reasons Why I Love You ❤️</h1>
+
+    <div class="card-container">
+
+      <!-- Example Card -->
+      <div class="flip-card" onclick="flipCard(this)">
+        <div class="flip-inner">
+          <div class="flip-front">Click ❤️</div>
+          <div class="flip-back">Your smile can instantly make my worst day better.</div>
+        </div>
+      </div>
+
+      <div class="flip-card" onclick="flipCard(this)">
+      <div class="flip-inner">
+<div class="flip-front">Click ❤️</div>
+<div class="flip-back">You came into my life and made everything brighter.</div>
+</div>
+</div>
+
+<div class="flip-card" onclick="flipCard(this)">
+<div class="flip-inner">
+<div class="flip-front">Click ❤️</div>
+<div class="flip-back">Your smile can fix even my worst day.</div>
+</div>
+</div>
+
+<div class="flip-card" onclick="flipCard(this)">
+<div class="flip-inner">
+<div class="flip-front">Click ❤️</div>
+<div class="flip-back">You always make me laugh.</div>
+</div>
+</div>
+
+<div class="flip-card" onclick="flipCard(this)">
+<div class="flip-inner">
+<div class="flip-front">Click ❤️</div>
+<div class="flip-back">Talking to you is my favorite part of the day.</div>
+</div>
+</div>
+
+<div class="flip-card" onclick="flipCard(this)">
+<div class="flip-inner">
+<div class="flip-front">Click ❤️</div>
+<div class="flip-back">You make ordinary moments feel special.</div>
+</div>
+</div>
+
+<div class="flip-card" onclick="flipCard(this)">
+<div class="flip-inner">
+<div class="flip-front">Click ❤️</div>
+<div class="flip-back">Your laugh is my favorite sound.</div>
+</div>
+</div>
+
+<div class="flip-card" onclick="flipCard(this)">
+<div class="flip-inner">
+<div class="flip-front">Click ❤️</div>
+<div class="flip-back">You understand me better than anyone.</div>
+</div>
+</div>
+
+<div class="flip-card" onclick="flipCard(this)">
+<div class="flip-inner">
+<div class="flip-front">Click ❤️</div>
+<div class="flip-back">Being with you feels like home.</div>
+</div>
+</div>
+
+<div class="flip-card" onclick="flipCard(this)">
+<div class="flip-inner">
+<div class="flip-front">Click ❤️</div>
+<div class="flip-back">You make my heart feel full.</div>
+</div>
+</div>
+
+<div class="flip-card" onclick="flipCard(this)">
+<div class="flip-inner">
+<div class="flip-front">Click ❤️</div>
+<div class="flip-back">Your messages always make me smile.</div>
+</div>
+</div>
+
+<div class="flip-card" onclick="flipCard(this)">
+<div class="flip-inner">
+<div class="flip-front">Click ❤️</div>
+<div class="flip-back">You believe in me when I doubt myself.</div>
+</div>
+</div>
+
+<div class="flip-card" onclick="flipCard(this)">
+<div class="flip-inner">
+<div class="flip-front">Click ❤️</div>
+<div class="flip-back">You make my heart race.</div>
+</div>
+</div>
+
+<div class="flip-card" onclick="flipCard(this)">
+<div class="flip-inner">
+<div class="flip-front">Click ❤️</div>
+<div class="flip-back">You always know how to cheer me up.</div>
+</div>
+</div>
+
+<div class="flip-card" onclick="flipCard(this)">
+<div class="flip-inner">
+<div class="flip-front">Click ❤️</div>
+<div class="flip-back">You make life more exciting.</div>
+</div>
+</div>
+
+<div class="flip-card" onclick="flipCard(this)">
+<div class="flip-inner">
+<div class="flip-front">Click ❤️</div>
+<div class="flip-back">You understand my silence.</div>
+</div>
+</div>
+
+<div class="flip-card" onclick="flipCard(this)">
+<div class="flip-inner">
+<div class="flip-front">Click ❤️</div>
+<div class="flip-back">You make even boring days fun.</div>
+</div>
+</div>
+
+<div class="flip-card" onclick="flipCard(this)">
+<div class="flip-inner">
+<div class="flip-front">Click ❤️</div>
+<div class="flip-back">Your hugs make everything better.</div>
+</div>
+</div>
+
+<div class="flip-card" onclick="flipCard(this)">
+<div class="flip-inner">
+<div class="flip-front">Click ❤️</div>
+<div class="flip-back">You care about the little things.</div>
+</div>
+</div>
+
+<div class="flip-card" onclick="flipCard(this)">
+<div class="flip-inner">
+<div class="flip-front">Click ❤️</div>
+<div class="flip-back">You make my world brighter.</div>
+</div>
+</div>
+
+<div class="flip-card" onclick="flipCard(this)">
+<div class="flip-inner">
+<div class="flip-front">Click ❤️</div>
+<div class="flip-back">You make me feel special.</div>
+</div>
+</div>
+
+<div class="flip-card" onclick="flipCard(this)">
+<div class="flip-inner">
+<div class="flip-front">Click ❤️</div>
+<div class="flip-back">You always support me.</div>
+</div>
+</div>
+
+<div class="flip-card" onclick="flipCard(this)">
+<div class="flip-inner">
+<div class="flip-front">Click ❤️</div>
+<div class="flip-back">Every memory with you is precious.</div>
+</div>
+</div>
+
+<div class="flip-card" onclick="flipCard(this)">
+<div class="flip-inner">
+<div class="flip-front">Click ❤️</div>
+<div class="flip-back">You make me feel lucky.</div>
+</div>
+</div>
+
+<div class="flip-card" onclick="flipCard(this)">
+<div class="flip-inner">
+<div class="flip-front">Click ❤️</div>
+<div class="flip-back">You make my life happier.</div>
+</div>
+</div>
+
+<div class="flip-card" onclick="flipCard(this)">
+<div class="flip-inner">
+<div class="flip-front">Click ❤️</div>
+<div class="flip-back">You are my favorite person.</div>
+</div>
+</div>
+
+<div class="flip-card" onclick="flipCard(this)">
+<div class="flip-inner">
+<div class="flip-front">Click ❤️</div>
+<div class="flip-back">My heart feels peaceful with you.</div>
+</div>
+</div>
+
+<div class="flip-card" onclick="lastCard(this)">
+<div class="flip-inner">
+<div class="flip-front">Click ❤️</div>
+<div class="flip-back">Life simply wouldn't feel the same without you.</div>
+</div>
+</div>
+
+    </div>
+<div class="container">
+<button class="center-btn" onclick="location.href='index.html'">Back</button>
+</div>
+<script src="js/script.js"></script>
+</body>
+</html>
